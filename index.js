@@ -13,7 +13,9 @@ module.exports = {
   rules: {
     camelcase: ['error', { properties: 'never' }],
     semi: 'error',
-    indent: ['error', 2],
+    indent: ['error', 2, {
+      SwitchCase: 1,
+    }],
     strict: 'error',
     curly: ['error', 'multi-line'],
     'comma-dangle': ['error', {
