@@ -1,0 +1,28 @@
+{
+  "name": "@coinspace/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ],
+    "env": {
+      "node": true,
+      "commonjs": true
+    }
+  }
+}
