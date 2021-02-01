@@ -35,6 +35,7 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'no-console': 'off',
     'max-len': ['error', 120],
+    'no-trailing-spaces': 'error',
     'keyword-spacing': 'error',
     'space-before-blocks': 'error',
     'no-unused-vars': ['error', { vars: 'all' }],
