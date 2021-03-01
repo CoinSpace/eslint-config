@@ -1,7 +1,8 @@
 {
-  "name": "@coinspace/eslint-config",
+  "name": "eslint-config-coinspace",
   "version": "1.0.2",
-  "description": "Shared eslint config",
+  "description": "Coin Crypto Wallet shared eslint config",
+  "author": "Coin Crypto Wallet <support@coin.space> (https://coin.space/)",
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js"
