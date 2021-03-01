@@ -28,6 +28,6 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
-      - run: npm publish --access public
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMJS_WRITE_TOKEN}}
