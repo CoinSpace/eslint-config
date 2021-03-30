@@ -37,6 +37,7 @@ module.exports = {
     'no-console': 'off',
     'max-len': ['error', 120],
     'no-trailing-spaces': 'error',
+    'no-multi-spaces': ['error', { exceptions: { Property: false } }],
     'keyword-spacing': 'error',
     'space-before-blocks': 'error',
     'no-unused-vars': ['error', { vars: 'all' }],
