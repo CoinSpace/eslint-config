@@ -13,7 +13,7 @@ module.exports = {
   rules: {
     camelcase: ['error', { properties: 'never' }],
     semi: 'error',
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', { avoidEscape: true }],
     indent: ['error', 2, {
       SwitchCase: 1,
     }],
