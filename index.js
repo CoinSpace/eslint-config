@@ -33,7 +33,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
     'object-curly-spacing': ['error', 'always'],
     'object-shorthand': 'error',
-    'brace-style': ['error', '1tbs'],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'array-bracket-spacing': ['error', 'never'],
     'no-console': 'off',
     'max-len': ['error', 120],
