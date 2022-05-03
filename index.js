@@ -30,6 +30,7 @@ module.exports = {
       before: false,
       after: true,
     }],
+    'key-spacing': 'error',
     'quote-props': ['error', 'as-needed'],
     'object-curly-spacing': ['error', 'always'],
     'object-shorthand': 'error',
