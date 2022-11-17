@@ -5,10 +5,10 @@ module.exports = {
     'eslint:recommended',
   ],
   env: {
-    es2017: true,
+    es2022: true,
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
   },
   rules: {
     camelcase: ['error', { properties: 'never' }],
@@ -37,7 +37,10 @@ module.exports = {
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'array-bracket-spacing': ['error', 'never'],
     'no-console': 'off',
-    'max-len': ['error', 120],
+    'max-len': ['error', {
+      code: 120,
+      ignoreComments: true,
+    }],
     'no-trailing-spaces': 'error',
     'no-multi-spaces': ['error', { exceptions: { Property: false } }],
     'keyword-spacing': 'error',
@@ -54,6 +57,13 @@ module.exports = {
       anonymous: 'never',
       named: 'never',
       asyncArrow: 'always',
+    }],
+    'sort-imports': ['error', {
+      ignoreCase: false,
+      ignoreDeclarationSort: false,
+      ignoreMemberSort: false,
+      memberSyntaxSortOrder: ['all', 'single', 'multiple', 'none'],
+      allowSeparatedGroups: true,
     }],
   },
 };
