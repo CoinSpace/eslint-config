@@ -10,6 +10,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
   },
+  plugins: [
+    'filenames',
+  ],
   rules: {
     camelcase: ['error', { properties: 'never' }],
     semi: 'error',
@@ -65,5 +68,6 @@ module.exports = {
       memberSyntaxSortOrder: ['all', 'single', 'multiple', 'none'],
       allowSeparatedGroups: true,
     }],
+    'filenames/match-exported': 'error',
   },
 };

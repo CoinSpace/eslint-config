@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-coinspace",
   "version": "2.0.0",
-  "description": "Coin Crypto Wallet shared eslint config",
-  "author": "Coin Crypto Wallet <support@coin.space> (https://coin.space/)",
+  "description": "Coin Wallet shared eslint config",
+  "author": "Coin Wallet <support@coin.space> (https://coin.space/)",
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js"
@@ -15,6 +15,9 @@
     "url": "https://github.com/CoinSpace/eslint-config.git"
   },
   "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-filenames": "^1.3.2"
+  },
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
