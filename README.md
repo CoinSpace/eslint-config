@@ -5,4 +5,4 @@
 [![Version](https://img.shields.io/npm/v/eslint-config-coinspace?label=version)](https://www.npmjs.com/package/eslint-config-coinspace)
 [![License](https://img.shields.io/github/license/CoinSpace/eslint-config?color=blue)](https://github.com/CoinSpace/eslint-config/blob/master/LICENSE)
 
-Coin Crypto Wallet shared eslint config.
+Coin Wallet shared eslint config.
