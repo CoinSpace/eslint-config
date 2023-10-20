@@ -22,6 +22,7 @@ module.exports = {
     }],
     strict: 'error',
     curly: ['error', 'multi-line'],
+    eqeqeq: ['error', 'always'],
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
