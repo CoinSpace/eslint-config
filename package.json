@@ -3,10 +3,10 @@
   "version": "2.1.2",
   "description": "Coin Wallet shared eslint config",
   "author": "Coin Wallet <support@coin.space> (https://coin.space/)",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "type": "module",
   "scripts": {
-    "test": "eslint --config index.js --report-unused-disable-directives ."
+    "test": "eslint --report-unused-disable-directives ."
   },
   "keywords": [
     "eslint"
