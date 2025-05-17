@@ -55,6 +55,7 @@ export default [{
       },
     }],
     'keyword-spacing': 'error',
+    'space-infix-ops': ['error', { int32Hint: true }],
     'space-before-blocks': 'error',
     'no-unused-vars': ['error', {
       vars: 'all',
