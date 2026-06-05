@@ -1,12 +1,13 @@
 import globals from 'globals';
 import js from '@eslint/js';
 
+/** @type {import('eslint').Linter.Config[]} */
 export default [{
   languageOptions: {
-    ecmaVersion: 2022,
+    ecmaVersion: 2025,
     sourceType: 'module',
     globals: {
-      ...globals.es2022,
+      ...globals.es2025,
     },
   },
   rules: {
@@ -82,28 +83,31 @@ export default [{
   },
 }];
 
+/** @type {import('eslint').Linter.Config[]} */
 export const node = [{
   languageOptions: {
     globals: {
-      ...globals.es2022,
+      ...globals.es2025,
       ...globals.nodeBuiltin,
     },
   },
 }];
 
+/** @type {import('eslint').Linter.Config[]} */
 export const browser = [{
   languageOptions: {
     globals: {
-      ...globals.es2022,
+      ...globals.es2025,
       ...globals.browser,
     },
   },
 }];
 
+/** @type {import('eslint').Linter.Config[]} */
 export const mocha = [{
   languageOptions: {
     globals: {
-      ...globals.es2022,
+      ...globals.es2025,
       ...globals.mocha,
     },
   },

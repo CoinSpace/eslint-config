@@ -17,13 +17,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@eslint/js": "^9.0.0",
-    "globals": "^16.1.0"
+    "@eslint/js": "^10.0.0",
+    "globals": "^17.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^10.0.0"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^10.0.0"
   }
 }
