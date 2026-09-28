@@ -39,6 +39,7 @@ export default [{
     'key-spacing': 'error',
     'quote-props': ['error', 'as-needed'],
     'object-curly-spacing': ['error', 'always'],
+    'object-curly-newline': ['error', { minProperties: 3, consistent: true }],
     'object-shorthand': 'error',
     'brace-style': ['error', '1tbs', {
       allowSingleLine: true,
